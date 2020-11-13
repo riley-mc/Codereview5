@@ -5,9 +5,10 @@ describe('Calculator', () => {
   let calc;
 
   beforeEach(() => {
-    calc = new Calculator(19);
+    calc = new Calculator(20);
   });
 
   test('should return the given age', () => {
-    expect(calc.earthAge()).toEqual(19);
+    expect(calc.earthAge()).toEqual(20);
   });
+});
