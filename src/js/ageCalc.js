@@ -1,6 +1,7 @@
 export class Calculator {
   constructor(age) {
     this.age = age;
+    this.yearsLeft = 80 - this.age;
   }
 
   earthAge() {
@@ -25,6 +26,10 @@ export class Calculator {
   jupiterAge() {
     let num = this.age / 11.86;
     return parseFloat(num.toFixed(2));
+  }
+
+  remainingYears() {
+    return this.yearsLeft;
   }
 
 }
