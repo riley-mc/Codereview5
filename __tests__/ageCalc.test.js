@@ -41,9 +41,13 @@ describe('Calculator', () => {
   });
 
   test('Will return the users remaining years to live on Mars', () => {
-    expect(calc.remainingMars()).toEqual(31.9);
+    expect(calc.remainingMars()).toEqual(31.91);
   });
   
+  test('Will return the users remaining years to live on Jupiter', () => {
+    expect(calc.remainingJupiter()).toEqual(5);
+  });
+
 });
 
 
