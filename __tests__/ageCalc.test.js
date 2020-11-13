@@ -39,6 +39,10 @@ describe('Calculator', () => {
   test('Will return the users remaining yeras to live on Venus', () => {
     expect(calc.remainingVenus()).toEqual(96.77);
   });
+
+  test('Will return the users remaining years to live on Mars', () => {
+    expect(calc.remainingMars()).toEqual(31.9);
+  });
   
 });
 
