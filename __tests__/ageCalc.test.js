@@ -45,7 +45,7 @@ describe('Calculator', () => {
   });
   
   test('Will return the users remaining years to live on Jupiter', () => {
-    expect(calc.remainingJupiter()).toEqual(5);
+    expect(calc.remainingJupiter()).toEqual(5.06);
   });
 
 });
