@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'tdd-template',
       template: './src/index.html',
       inject: 'body'
     })
@@ -29,32 +29,11 @@ module.exports = {
           'css-loader'
         ]
       },
-      
       {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: "eslint-loader"
-      },
-    
-      {
-        test: /\.(gif|png|jpe?g)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/images/'
-            }
-          }
-        ]
-      },
-      
-      {
-        test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
-      },
+      }
     ]
   }
 };

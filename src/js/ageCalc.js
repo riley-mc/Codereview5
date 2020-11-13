@@ -1,11 +1,8 @@
 export class Calculator {
-  constructore(age) {
+  constructor(age) {
     this.age = age;
   }
 
-  earthAge()  {
+  earthAge() {
     return this.age;
   }
-
-
-};
