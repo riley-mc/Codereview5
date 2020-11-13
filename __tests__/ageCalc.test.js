@@ -1,5 +1,5 @@
 import { TestScheduler } from 'jest';
-import { Calculator } from './../src/js/Calculator.js';
+import { Calculator } from './../src/js/ageCalc.js';
 
 describe('Calculator', () => {
   let calc;
@@ -11,4 +11,6 @@ describe('Calculator', () => {
   test('should return the given age', () => {
     expect(calc.earthAge()).toEqual(20);
   });
+
+  
 });

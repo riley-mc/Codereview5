@@ -6,3 +6,5 @@ export class Calculator {
   earthAge() {
     return this.age;
   }
+
+}
