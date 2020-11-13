@@ -29,7 +29,7 @@ describe('Calculator', () => {
   });
 
   test('will return the remaining years the average user life which is 80 years', () => {
-    expect(calc.remainingYears()).toEqual(60);
+    expect(calc.remainingYears()).toEqual(59);
   });
   
 });
