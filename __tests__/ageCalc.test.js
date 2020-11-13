@@ -5,7 +5,7 @@ describe('Calculator', () => {
   let calc;
 
   beforeEach(() => {
-    calc = new Calculator(20);
+    calc = new Calculator(19);
   });
 
   test('should return the given age', () => {
