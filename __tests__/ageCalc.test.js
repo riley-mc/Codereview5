@@ -33,7 +33,7 @@ describe('Calculator', () => {
   });
 
   test('Will return the users remaining years to live on Mercury', () => {
-    expect(calc.remainingMercury()).toEqual(250);
+    expect(calc.remainingMercury()).toEqual(230);
   });
   
 });
