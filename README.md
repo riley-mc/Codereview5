@@ -37,6 +37,7 @@ _Go to my GitHub repository here, {{[https://github.com/riley-mc/codereview5](ht
 
 ## Known Bugs
 
+Although all the tests work great the tests file is getting a weird syntax error in test file where "test" and "expect" are all underlined. I'm thinking it has something to do with my linter. When I add the closing bracket my tests scripts work, but when I close it in linter the lines go red again. Very odd.
 
 
 ## Support or Contact information
