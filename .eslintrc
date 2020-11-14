@@ -14,15 +14,9 @@
     "semi": 1,
     "indent": ["warn", 2],
     "no-debugger": "warn"
-  },
-  "overrides": [
-    {
-      "files": [
-        "./__tests__/project.test.js"
-      ],
-      "env": {
-        "jest": true
-      }
-    }
-  ]
-}
+  }
+
+
+
+
+

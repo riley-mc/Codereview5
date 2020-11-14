@@ -24,19 +24,18 @@ A calculator that will determine your age per lunar year for each planet of the 
 
 _To view my live website, visit [https://github.com/riley-mc/codereview5](https://github.com/riley-mc/codereview5)_
 
-### Open Locally
+### Download from GitHub
 
-_Go to my GitHub repository here, {{[https://github.com/riley-mc/codereview5](https://github.com/riley-mc/codereview5),}} and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file_
+_Go to my GitHub repository here, {{[https://github.com/riley-mc/codereview5](https://github.com/riley-mc/codereview5),}} and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file and move extract to your desired location_
 
-##### To Clone:
-1. _Push the green 'Clone' button and copy the URL._
-2. _Open Terminal or GitBash and input the command:_ `git clone {{https://github.com/riley-mc/codereview5`}}
-3. _To view the code, open the copied directory with VSS by inputing the command `code .` in your terminal._
-4. _To view the website, open index.html in Chrome or your preferred browser._
+##### Opening the Project:
+1. _You will need to intall Node in order to run the tests. You can intall it from here `https://nodejs.org/en/`_
+2. _Once Node is installed, open the downloaded project (SolarAgeCalculator) through your terminal command lines._
+3. _Run the command `npm install` to intall all the required dependencies and libraries._
+4. _In order to just run it in your browser us the command `npm run build`, then go to the "dist" folder and enter the command `open index.html`._
 
 
 ## Known Bugs
-
 
 
 

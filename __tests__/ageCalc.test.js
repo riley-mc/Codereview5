@@ -1,4 +1,3 @@
-import { TestScheduler } from 'jest';
 import { Calculator } from './../src/js/ageCalc.js';
 
 describe('Calculator', () => {
@@ -48,7 +47,10 @@ describe('Calculator', () => {
     expect(calc.remainingJupiter()).toEqual(5.06);
   });
 
+
 });
+
+
 
 
 
