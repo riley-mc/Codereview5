@@ -16,7 +16,7 @@ A calculator that will determine your age per lunar year for each planet of the 
 | The application will divide user input by 11.86 to determine users age on Jupiter and return | 20 | 1.68 |
 | Application will determine remaining life expectancy based on user input age per planet. Average human life will last 80 years. | 20 | 60 years remaining |
 | Application will recognize is user is age of life expectancy. | 80 | 0 years left. |
-| Application will determine how many years past life expectancy user inputs. | 85 | You are past the life expectancy! |
+| Application will determine how many years past life expectancy user inputs. | 85 | You are 5 years past the life expectancy! |
 
 ## Setup/Installation Requirements
 
