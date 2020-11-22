@@ -48,7 +48,7 @@ describe('Calculator', () => {
   });
 
   test('Will return the number of years user has lived past life expectancy', () => {
-    let calc = new Calculator(85, "Carol");
+    let calc = new Calculator(85);
     expect(calc.pastExpect()).toEqual(5); 
   });
 
